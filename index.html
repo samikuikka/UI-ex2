@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <script type = "text/javascript">
+      window.onload = () => {
+        let button = document.getElementById('foo')
+        button.addEventListener('click', give_alert)
+
+        function give_alert() {
+          alert('Great job!"')
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Sami's button</h1>
+    <button id='foo'>Click me</button>
+    
+  </body>
+</html>
